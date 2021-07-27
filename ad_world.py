@@ -57,8 +57,8 @@ for i in range(1,6):
 	start = time.time()
 	results = detector(rgb, 1)
 	end = time.time()
-	print("[INFO] face detection took {:.4f} seconds".format(end - start))
-	boxes = [convert_and_trim_bb(image, r.rect) for r in results]
+	print("face detection took {:.4f} seconds".format(end - start))
+	boxes = [convert_and_trim(image, r.rect) for r in results]
 	for (x, y, w, h) in boxes:
 		cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 	tot_det+= len(boxes)
