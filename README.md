@@ -21,3 +21,5 @@ For instance:
 1) one person looking away and two looking towards the ad and it has correctly distinguished who was actually looking into the ad and who was looking away.
 2) "no_face.jpeg" simulates a scenario where Ultrasonic sensor detects because of some random movements of objects but no person is actually looking into the ad. Hence no faces are detected.
 3) The algorithm was tested on maximum of 17 people to find it's maximum capacity for correct face detection
+
+NOTE: An improved version for finding the position of head by computing pitch, roll and yaw with nose as centre can be found in https://github.com/vrwaingankar/head-pose-estimation-and-view-counting
