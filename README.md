@@ -1,7 +1,7 @@
 # Ad-world-Smart Advertisement
 Improve the consumer marketing designation by counting the number of visitors visited a particular ad published.
 
-The main idea of the project is to develop an embedded system to know how many visitors have looked into a particular Ad for a specified amount of time and keep a counter to determine how many people were interested in it and charge the organisation based on view counts instead of traditional way of charging based on number of days/months the ad was displayed. The ads here refer to billboards present in and around public places and public transports.
+The main idea of the project is to develop an embedded system to know how many visitors have looked into a particular Ad for a specified amount of time and keep a counter to determine how many people were interested in it and charge the organisation based on view counts instead of traditional way of charging based on number of days/months the ad was displayed. The ads here are those displayed on electronic displays in and around public places and public transports.
 The method helps to analyse the behavior of people in a given region and display ads accordingly for increasing business.
 Eg: if a region X has higher view count for product M then for product N, then there is a greater business potential for product M in that region.
 
