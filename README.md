@@ -9,17 +9,17 @@ Max-Margin (MMOD) CNN face detector algorithm is used for face detection.
 
 Objectives of this project is to design a system with following requirements:
 1) To detect visitor standing in front of Ad with non-contact measurement (range 400cm).
-2) Turn the camera on when a visitor is detected in front of Ad.
-3) Capture 5 consecutive images with minute intervals of time.
-4) Face detection in those 5 images using Convolutional Neural Network.
-5) Count up when face detected for a threshold number of images.
+2) Turn the camera on when an object is detected in front of Ad.
+3) Capture 5 consecutive images with desired intervals of time between successive images.
+4) Face detection in those 5 images using MMOD CNN face detector.
+5) Increase counter when threshold is met.
 6) Periodic updates via email to advertisers on number of views.
 7) The view count is stored in text file Individual_Samples.txt.
+8) The algorithm considers detection of complete face for updating view count (complete face = True, partial face = False)
+NOTE: An improved version for finding the position of head by computing pitch, roll and yaw with nose as centre can be found in my other repository https://github.com/vrwaingankar/head-pose-estimation-and-view-counting
 
 The Result folder contains results of different scenarios
 For instance:
 1) one person looking away and two looking towards the ad and it has correctly distinguished who was actually looking into the ad and who was looking away.
 2) "no_face.jpeg" simulates a scenario where Ultrasonic sensor detects because of some random movements of objects but no person is actually looking into the ad. Hence no faces are detected.
 3) The algorithm was tested on maximum of 17 people to find it's maximum capacity for correct face detection
-
-NOTE: An improved version for finding the position of head by computing pitch, roll and yaw with nose as centre can be found in https://github.com/vrwaingankar/head-pose-estimation-and-view-counting
